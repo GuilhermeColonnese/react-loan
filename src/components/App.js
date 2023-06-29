@@ -27,7 +27,7 @@ function App(){
     ];
 
   function postRequest(){
-      LiferayApi("o/loanrequests/", {
+      LiferayApi("o/c/loanrequests/", {
           method: 'POST', 
           body: {
             "amount": store.loanAmount,
