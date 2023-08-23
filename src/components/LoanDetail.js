@@ -42,7 +42,7 @@ function LoanDetail(props) {
     }
 
     function fetchRates(){
-        LiferayApi("o/c/rateses/")
+        LiferayApi("o/c/rates/")
         .then((result) => {
             let rates = loadRates(result.data.items);
             console.log(rates);
