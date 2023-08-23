@@ -30,7 +30,7 @@ const baseFetch = async (url, {body, method = 'GET'} = {}) => {
 	    	'Authorization': 'Basic ' + btoa('test@liferay.com:test'), 
 			'Content-Type': 'application/json'
 	    });
-	    apiPath = "https://webserver-lctdemobrt1-prd.lfr.cloud";
+	    apiPath = "https://webserver-lctcustomersummit-prd.lfr.cloud";
 	}
 
 	const response = await fetch(apiPath + '/' + url, {
